@@ -37,7 +37,18 @@
   border-radius: 12px;
 }
 
-@media (min-width: 580px) {
+.expense-item__date{
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+@media (min-width: 480px) {
   .expense-item__description {
     flex-direction: row;
     align-items: center;
