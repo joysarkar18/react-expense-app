@@ -1,3 +1,8 @@
+body{
+  background-color: #3a3a3a;
+  /* margin-left: 15rem;
+  margin-right: 15rem; */
+}
 .expense-item {
   display: flex;
   justify-content: space-between;
@@ -49,6 +54,7 @@
 }
 
 @media (min-width: 480px) {
+   
   .expense-item__description {
     flex-direction: row;
     align-items: center;

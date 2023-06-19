@@ -1,7 +1,17 @@
 .App {
   text-align: center;
 }
+/* .appdiv{
+  margin-left: 10rem;
+  margin-right: 10rem;
+} */
 
+.expenses{
+  padding-left: 10rem;
+  padding-right: 10rem;
+
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
