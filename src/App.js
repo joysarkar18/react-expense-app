@@ -10,9 +10,18 @@ function App() {
     { date: new Date(2023, 3, 2), name: "Books", amount: 500 },
   ];
 
+  const onSaveExpenseHandaler = (entered)=>{
+    const expenseData = {
+      ...entered,
+      id:Math.random().toString()
+    } 
+    console.log(expenseData)
+;    
+  }
+
   return (
     <div className="appdiv">
-      <NewExpense></NewExpense>
+      <NewExpense onSaveExpense={onSaveExpenseHandaler}></NewExpense>
       <div className="expenses">
         <ExpenseItem
           name={expenses[0].name}
